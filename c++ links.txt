@@ -1,0 +1,2 @@
+http://docs.embarcadero.com/products/rad_studio/radstudio2007/RS2007_helpupdates/HUpdate4/EN/html/devwin32/baseandderivedclassaccess_xml.html
+http://www.careerride.com/C++-overloading-vs-overriding.aspx
