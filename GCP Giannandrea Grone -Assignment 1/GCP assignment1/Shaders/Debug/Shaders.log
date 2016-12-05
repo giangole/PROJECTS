@@ -1,0 +1,15 @@
+﻿Build started 04/12/2016 20:57:17.
+     1>Project "C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Shaders\Shaders.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SDKs\glew-2.0.0\include" /IC:\SDKs\freeglut\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Debug\CGPAssignment.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SDKs\freeglut\lib /LIBPATH:"C:\SDKs\glew-2.0.0\lib\Release\Win32" /LIBPATH:C:\dev\opengl\freeglut\lib glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Debug\CGPAssignment.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Debug\CGPAssignment.lib" /MACHINE:X86 Debug\main.obj
+         Debug\MathHelper.obj
+         Debug\Quaternion.obj
+         Shaders.vcxproj -> C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Debug\CGPAssignment.exe
+     1>Done Building Project "C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Shaders\Shaders.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.45
