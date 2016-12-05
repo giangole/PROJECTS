@@ -1,0 +1,23 @@
+﻿Build started 28/11/2016 02:11:18.
+     1>Project "C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Shaders\Shaders.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SDKs\freeglut\include /I"C:\SDKs\glew-2.0.0\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp MathHelper.cpp Quaternion.cpp
+         main.cpp
+         MathHelper.cpp
+         Quaternion.cpp
+     1>Quaternion.cpp(10): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Quaternion.cpp(11): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Quaternion.cpp(12): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Quaternion.cpp(13): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Release\CGPAssignment.exe" /NOLOGO /LIBPATH:"C:\SDKs\glew-2.0.0\lib\Release\Win32" /LIBPATH:C:\SDKs\freeglut\lib /LIBPATH:C:\dev\opengl\freeglut\lib glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Release\CGPAssignment.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Release\CGPAssignment.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\MathHelper.obj
+         Release\Quaternion.obj
+         Generating code
+         Finished generating code
+         Shaders.vcxproj -> C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Release\CGPAssignment.exe
+     1>Done Building Project "C:\Users\gian\Desktop\GCP Giannandrea Grone -Assignment 1\GCP assignment1\Shaders\Shaders.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86
