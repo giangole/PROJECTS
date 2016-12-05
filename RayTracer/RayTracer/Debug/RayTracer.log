@@ -1,0 +1,42 @@
+﻿Build started 19/03/2015 22:17:25.
+     1>Project "C:\Users\gian\Documents\Visual Studio 2013\Projects\RayTracer\RayTracer\RayTracer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\bitmap.h(18): warning C4351: new behavior: elements of array 'BMP::RGB::r' will be default initialized
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\bitmap.h(18): warning C4351: new behavior: elements of array 'BMP::RGB::g' will be default initialized
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\bitmap.h(18): warning C4351: new behavior: elements of array 'BMP::RGB::b' will be default initialized
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(160): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(212): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(139): warning C4101: 'tempRed' : unreferenced local variable
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(141): warning C4101: 'tempBlue' : unreferenced local variable
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(140): warning C4101: 'tempGreen' : unreferenced local variable
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(357): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(382): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(387): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(393): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(397): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(401): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(465): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(477): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(581): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\gian\documents\visual studio 2013\projects\raytracer\raytracer\main.cpp(590): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gian\Documents\Visual Studio 2013\Projects\RayTracer\Debug\RayTracer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gian\Documents\Visual Studio 2013\Projects\RayTracer\Debug\RayTracer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gian\Documents\Visual Studio 2013\Projects\RayTracer\Debug\RayTracer.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\Color.obj
+         Debug\Light.obj
+         Debug\Plane.obj
+         Debug\Shape.obj
+         Debug\Ray.obj
+         Debug\Polygons.obj
+         Debug\Source.obj
+         Debug\Sphere.obj
+         Debug\vector3D.obj
+         Debug\bitmap.obj
+         Debug\Main.obj
+         RayTracer.vcxproj -> C:\Users\gian\Documents\Visual Studio 2013\Projects\RayTracer\Debug\RayTracer.exe
+     1>Done Building Project "C:\Users\gian\Documents\Visual Studio 2013\Projects\RayTracer\RayTracer\RayTracer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.58
